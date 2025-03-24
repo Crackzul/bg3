@@ -32,13 +32,16 @@ h1 {
 
 .party {
     position: relative;
-    bottom: 30vh;
+    bottom: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .box_video {
     height: 100vh;
     position: relative;
-    bottom: 10vh;
+    top: -13vh;
     z-index: -1;
 }
 
@@ -51,7 +54,7 @@ h1 {
 
 ul {
     padding-left: 0;
-    margin-top: 3vh;
+    margin-top: 6vh;
 }
 
 li a {
@@ -83,15 +86,9 @@ li {
     width: 10%;
 }
 
-.party {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
 .get {
     border: solid 2px #fbcea0;
-    border-radius: 5px;
+    border-radius: 12px;
     text-decoration: none;
     display: inline-block;
     padding: 1rem 2rem;
@@ -105,18 +102,57 @@ body {
 }
 
 .awards {
+    display: flex;
     background-image: url(../img/awards-bg.png);
-    border: solid 2px #fbcea0;
-    width: 30vh;
+    background-size: cover;
+    border: solid 1px #fbcea0;
+    width: 75%;
     height: 30vh;
+    margin: 0 auto;
+    position: relative;
+    top: -28vh;
+    border-radius: 12px;
+}
+
+.award {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.race {
+    display: flex;
+    gap: 5vw;
+    margin: 0 auto;
+    justify-content: center;
 }
 .race_g {
-    border: solid 2px #fbcea0;
-    width: 30vh;
+    border: solid 1px #fbcea0;
+    width: 30%;
     height: 30vh;
+    border-radius: 12px;
 }
 .race_d {
-    border: solid 2px #fbcea0;
-    width: 30vh;
+    border: solid 1px #fbcea0;
+    width: 30%;
     height: 30vh;
+    border-radius: 12px;
+}
+
+img {
+    max-width: 20%;
+    height: auto;
+}
+
+.text_awards {
+    display: inline-block;
+}
+
+.text_awards {
+    padding-right: 5%;
+}
+p {
+    font-family: "Gothic";
+    font-size: 1rem;
+    color:white;
 }

@@ -1,8 +1,39 @@
 @font-face {
     font-family: "Roboto";
-    src: url(../font/Roboto/Roboto-Regular.ttf);
+    src: url(../fonts/Gothic_A1/GothicA1-Regular.ttf);
 }
 
 * {
     box-sizing: border-box;
 }
+
+body {
+    width: 100%;
+}
+
+#vidéo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: contain;
+}
+
+.avant_vidéo {
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+li {
+    display: inline;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+}
+

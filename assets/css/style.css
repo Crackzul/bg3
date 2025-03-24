@@ -1,6 +1,11 @@
 @font-face {
-    font-family: "Roboto";
+    font-family: "Gothic";
     src: url(../fonts/Gothic_A1/GothicA1-Regular.ttf);
+}
+
+@font-face {
+    font-family: "MedievalSharp";
+    src: url(../fonts/MedievalSharp/MedievalSharp-Regular.ttf);
 }
 
 * {
@@ -8,7 +13,13 @@
 }
 
 body {
+    font-family: "Gothic";
     width: 100%;
+}
+
+h1 {
+    font-family: "MedievalSharp";
+    font-size: 3rem;
 }
 
 #vidéo {
@@ -26,6 +37,29 @@ body {
     top: 0;
     left: 0;
     right: 0;
+    
+}
+
+ul {
+    padding-left: 0;
+    margin-top: 3vh;
+}
+
+a {
+    text-decoration: none;
+    color: #fbcea0;
+    font-family: "MedievalSharp";
+    font-size: 1rem;
+    margin-left: 1rem;
+}
+
+.btn_buy {
+    background-color: #fbcea0;
+    color: black;
+    border:solid #fbcea0;
+    height: 10rem;
+    width: 10rem;
+    border-radius: 5px;
 }
 
 li {
@@ -37,3 +71,14 @@ li {
     justify-content: space-around;
 }
 
+.logo-hg {
+    width: 10%;
+}
+
+.party {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 50vh;
+}

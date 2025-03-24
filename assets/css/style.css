@@ -20,6 +20,7 @@ body {
 h1 {
     font-family: "MedievalSharp";
     font-size: 3rem;
+    color: #fbcea0;
 }
 
 #vidéo {
@@ -45,7 +46,7 @@ ul {
     margin-top: 3vh;
 }
 
-a {
+li a {
     text-decoration: none;
     color: #fbcea0;
     font-family: "MedievalSharp";
@@ -57,9 +58,8 @@ a {
     background-color: #fbcea0;
     color: black;
     border:solid #fbcea0;
-    height: 10rem;
-    width: 10rem;
     border-radius: 5px;
+    padding: 1rem 2rem;
 }
 
 li {
@@ -81,4 +81,13 @@ li {
     align-items: center;
     position: relative;
     top: 50vh;
+}
+
+.get a {
+    border: solid 2px #fbcea0;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    padding: 1rem 2rem;
+    font-family: "MedievalSharp";
 }

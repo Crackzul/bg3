@@ -37,10 +37,12 @@ h1 {
 
 .box_video {
     height: 100vh;
+    position: relative;
+    bottom: 10vh;
+    z-index: -1;
 }
 
 .avant_vidéo {
-    position: fixed;
     z-index: 1;
     top: 0;
     left: 0;
@@ -98,7 +100,7 @@ li {
     color: #fbcea0;
 }
 
-main {
+body {
     background-image: url(../img/smoke-bg.jpg);
 }
 

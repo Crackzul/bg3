@@ -41,7 +41,6 @@ h1 {
 .box_video {
     height: 100vh;
     position: relative;
-    top: -13vh;
     z-index: -1;
 }
 
@@ -110,8 +109,6 @@ body {
     width: 75%;
     height: 30vh;
     margin: 0 auto;
-    position: relative;
-    top: -28vh;
     border-radius: 12px;
 }
 
@@ -125,8 +122,6 @@ body {
     gap: 5vw;
     margin: 0 auto;
     justify-content: center;
-    position: relative;
-    bottom: 10vh;
 }
 .race_g {
     border: solid 1px #fbcea0;
@@ -144,7 +139,6 @@ body {
 }
 
 .text_awards {
-    display: inline-block;
     padding-right: 2vh;
 }
 
@@ -152,10 +146,25 @@ body {
     max-width: 15vw;
 }
 
-p {
+.text_awards p {
     font-family: "Gothic";
     font-size: 1rem;
     color:white;
+}
+
+.text_awards h2 {
+    font-family: "MedievalSharp";
+    font-size: 2rem;
+    color: #fbcea0;
+    padding-left: 1rem;
+
+}
+
+.race h2 {
+    font-family: "MedievalSharp";
+    font-size: 2rem;
+    color: #fbcea0;
+    padding-left: 1rem;
 }
 
 .icone_race {
@@ -163,3 +172,7 @@ p {
     height: auto;
 }
 
+.race_h2 {
+    position: relative;
+    bottom: 20vh;
+}

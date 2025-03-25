@@ -140,7 +140,7 @@ body {
 
 #race_h2 {
     margin-top: 20vh;
-    margin-left: 7vw;
+    margin-left: 30rem;
 
 }
 
@@ -162,8 +162,9 @@ body {
 }    
 .race_d {
     border: solid 1px #fbcea0;
-    width: 30%;
+    width: 30vw;
     border-radius: 12px;
+    padding: 3rem;
 }
 
 .text_awards {
@@ -188,6 +189,7 @@ body {
     margin-top: 3vh;
     margin: 3vh;
     margin-bottom: 0;
+    max-width: 200px;
 }
 
 .race_h2 {
@@ -215,13 +217,23 @@ body {
     margin-top: 3vh;
 }
 
-.race_d::after {
-    content: "";
-    display: inline-block;
-    width: 15vw;
-    height: 2px;
-    background-color:#fbcea0;
-    position: relative;
-    left: 17vh;
-  
+.icone_race_droite {
+    width: 35%;
 }
+
+.separator {
+    width: 50%;
+    margin: 0 auto;
+    height: 4px;
+    background-color:#fbcea0;
+}
+
+.truc {
+    color: #fbcea0;
+    padding: 2rem;
+    border-bottom: solid #fbcea0 2px; 
+}
+
+
+
+

@@ -207,11 +207,13 @@ body {
     color: white;
     display: inline-block;
     padding-top: 2rem;
-}
-
-.box_icone_race {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
 
+.box_icone_race_droite {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }

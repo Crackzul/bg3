@@ -38,6 +38,12 @@ h2 {
     color: #fbcea0;
 }
 
+p {
+    font-family: "Gothic";
+    font-size: 2rem;
+    color: white;
+}
+
 #video {
     width: 100%;
     height: 100%;
@@ -157,7 +163,6 @@ body {
 .race_d {
     border: solid 1px #fbcea0;
     width: 30%;
-    height: 30vh;
     border-radius: 12px;
 }
 
@@ -179,17 +184,8 @@ body {
 
 }
 
-.race h2 {
-    font-family: "MedievalSharp";
-    font-size: 2rem;
-    color: #fbcea0;
-    padding-left: 1rem;
-}
-
 .icone_race {
     margin-top: 3vh;
-    width: 150px;
-    height: 150px;
     margin: 3vh;
     margin-bottom: 0;
 }
@@ -216,4 +212,16 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 3vh;
+}
+
+.race_d::after {
+    content: "";
+    display: inline-block;
+    width: 15vw;
+    height: 2px;
+    background-color:#fbcea0;
+    position: relative;
+    left: 17vh;
+  
 }

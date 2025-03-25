@@ -18,6 +18,14 @@ body {
     margin: 0;
 }
 
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+
+}
+
 h1 {
     font-family: "MedievalSharp";
     font-size: 3rem;
@@ -32,7 +40,7 @@ h1 {
 
 .party {
     position: relative;
-    bottom: 50vh;
+    bottom: 30vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -60,7 +68,7 @@ li a {
     text-decoration: none;
     color: #fbcea0;
     font-family: "MedievalSharp";
-    font-size: 1rem;
+    font-size: 2rem;
     margin-left: 1rem;
 }
 
@@ -93,7 +101,8 @@ li {
     padding: 1rem 2rem;
     font-family: "MedievalSharp";
     font-size: 3rem;
-    color: #fbcea0;
+    color: white;
+    backdrop-filter: blur(20px);
 }
 
 body {

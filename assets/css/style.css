@@ -125,12 +125,16 @@ body {
     gap: 5vw;
     margin: 0 auto;
     justify-content: center;
+    position: relative;
+    bottom: 10vh;
 }
 .race_g {
     border: solid 1px #fbcea0;
-    width: 30%;
-    height: 30vh;
+    max-width: 50%;
     border-radius: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 .race_d {
     border: solid 1px #fbcea0;
@@ -139,20 +143,22 @@ body {
     border-radius: 12px;
 }
 
-img {
-    max-width: 20%;
-    height: auto;
-}
-
 .text_awards {
     display: inline-block;
 }
 
 .text_awards {
-    padding-right: 5%;
+    padding-right: 2vh;
+    padding
 }
 p {
     font-family: "Gothic";
     font-size: 1rem;
     color:white;
 }
+
+.icone_race {
+    width: 14vw;
+    height: auto;
+}
+

@@ -32,6 +32,7 @@ h1 {
     color: #fbcea0;
 }
 
+
 #video {
     width: 100%;
     height: 100%;
@@ -102,7 +103,7 @@ li {
     font-family: "MedievalSharp";
     font-size: 3rem;
     color: white;
-    backdrop-filter: blur(20px);
+    backdrop-filter: blur(0px);
 }
 
 body {
@@ -179,9 +180,27 @@ body {
 .icone_race {
     width: 14vw;
     height: auto;
+    padding: 5rem;
+    margin: 2rem;
 }
 
 .race_h2 {
     position: relative;
     bottom: 20vh;
+}
+
+.text_icone_race {
+    text-decoration: none;
+    padding: 1rem 2rem;
+    font-family: "MedievalSharp";
+    font-size: 2rem;
+    color: white;
+    display: inline-block;
+}
+
+.box_icone_race {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
 }

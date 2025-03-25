@@ -28,10 +28,15 @@ header {
 
 h1 {
     font-family: "MedievalSharp";
-    font-size: 3rem;
+    font-size: 5rem;
     color: #fbcea0;
 }
 
+h2 {
+    font-family: "MedievalSharp";
+    font-size: 4rem;
+    color: #fbcea0;
+}
 
 #video {
     width: 100%;
@@ -101,7 +106,7 @@ li {
     display: inline-block;
     padding: 1rem 2rem;
     font-family: "MedievalSharp";
-    font-size: 3rem;
+    font-size: 4rem;
     color: white;
     backdrop-filter: blur(0px);
 }
@@ -127,6 +132,12 @@ body {
     align-items: center;
 }
 
+#race_h2 {
+    margin-top: 20vh;
+    margin-left: 7vw;
+
+}
+
 .race {
     display: flex;
     gap: 5vw;
@@ -135,12 +146,14 @@ body {
 }
 .race_g {
     border: solid 1px #fbcea0;
-    max-width: 50%;
+    width: 30vw;
     border-radius: 12px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-}
+    background-image: url(/assets/img/races-bg.jpg);
+    background-size: cover;
+}    
 .race_d {
     border: solid 1px #fbcea0;
     width: 30%;
@@ -153,7 +166,9 @@ body {
 }
 
 .icone_award {
-    max-width: 15vw;
+    max-width: 15vw;<div class="box_icone_race" ><div class="box_icone_race" ><div class="box_icone_race" ><div class="box_icone_race" ><div class="box_icone_race" ><div class="box_icone_race" ><div class="box_icone_race" >
+    max-width: 15vw;<div class="box_icone_race" ><div class="box_icone_race" ><div class="box_icone_race" ><div class="box_icone_race" ><div class="box_icone_race" ><div class="box_icone_race" ><div class="box_icone_race" >
+    max-width: 15vw;<div class="box_icone_race" ><div class="box_icone_race" ><div class="box_icone_race" ><div class="box_icone_race" ><div class="box_icone_race" ><div class="box_icone_race" ><div class="box_icone_race" >
 }
 
 .text_awards p {
@@ -178,11 +193,10 @@ body {
 }
 
 .icone_race {
-    width: 14vw;
-    height: auto;
-    padding: 5rem;
-    margin: 2rem;
-    padding-bottom: 0;
+    margin-top: 3vh;
+    width: 150px;
+    height: 150px;
+    margin: 3vh;
     margin-bottom: 0;
 }
 

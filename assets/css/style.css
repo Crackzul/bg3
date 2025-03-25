@@ -58,7 +58,7 @@ p {
 
 .party {
     position: relative;
-    bottom: 30vh;
+    bottom: 40vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -133,7 +133,7 @@ body {
     background-image: url(../img/awards-bg.png);
     background-size: cover;
     border: solid 1px #fbcea0;
-    width: 75%;
+    width: 90%;
     height: 30vh;
     margin: 0 auto;
     border-radius: 12px;
@@ -159,7 +159,7 @@ body {
 }
 .race_g {
     border: solid 1px #fbcea0;
-    width: 30vw;
+    width: 40%;
     border-radius: 12px;
     display: flex;
     flex-wrap: wrap;
@@ -169,7 +169,7 @@ body {
 }    
 .race_d {
     border: solid 1px #fbcea0;
-    width: 30vw;
+    width: 40%;
     border-radius: 12px;
     padding: 3rem;
 }
@@ -247,7 +247,7 @@ body {
     height:100vh;
     display: flex;
     align-items: center;
-    padding: 10vw;
+    padding: 6%;
 }
 
 .buy_now a {
